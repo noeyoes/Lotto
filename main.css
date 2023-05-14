@@ -1,0 +1,15 @@
+.total {
+    width: 1500px;
+    height: 800px;
+}
+
+body {
+    cursor: pointer;
+    overflow: hidden;
+    height: 100%;
+  }
+
+.Btn {
+    width: 100%;
+    height: 100%;
+}

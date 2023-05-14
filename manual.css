@@ -1,0 +1,19 @@
+.total {
+    cursor: pointer;
+    transform: translate(-50px, -10px);
+    width: 1500px;
+    height: 750px;
+    position: absolute;
+}
+
+body {
+    overflow: hidden;
+}
+
+.start{
+    position: relative;
+    transform: translate(0px, -800px);
+    color: red;
+    width: 800px;
+    height: 500px;
+}

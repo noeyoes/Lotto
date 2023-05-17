@@ -1,36 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>RANDOM JACKPOT!</title>
-        <link rel="stylesheet" href="game.css" />
-    </head>
-    <body>
-        <div class="all">
-            <div class="gamebox">
-                <button id="box">
-                    <img
-                        id="gamebox"
-                        src="img/gamebox.png"
-                        width="621"
-                        height="578"
-                    />
-                </button>
-                <div class="luckynum">0</div>
-            </div>
-            <div class="main">
-                <button id="gotoMain">
-                    <img
-                        src="img/mainbutton.png"
-                        onClick="location.href='main.html'"
-                        width="140"
-                        height="60"
-                    />
-                </button>
-            </div>
-        </div>
-        <script src="game.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game page</title>
+    <link rel="stylesheet" href="game.css" />
+</head>
+<body bgcolor="black">
+    <div class="background-container">
+        <img class="bgt" src="img/bgt2.png">
+    </div>
+    <div class="gamebox">
+        <button id="box">
+            <img id="gamebox" src="img/gamebox.png">
+            <div class="luckynum">1</div>
+        </button>
+    </div>
+    <div class="return">
+        <img  id="mainbutton" onClick="location.href='main.html'" src="img/mainbutton.png">
+    </div>
+    <script src="game.js"></script>
+</body>
 </html>
